@@ -1,0 +1,75 @@
+\---
+layout: default
+title: Where To Stay
+\---
+
+.content-wrapper-header
+  .content-wrapper-header-inner
+    %h1 where to stay
+    .the-boat
+  .the-waves
+
+.content-wrapper-inner
+
+  :ruby
+    hotels = [
+      {
+        name: "Holiday Inn",
+        url: "http://www.holidayinn.com/redirect?path=hd&brandCode=hi&localeCode=en&regionCode=1&hotelCode=FMHMA&_PMID=99801505&GPC=APT&blpu=true",
+        phone: "(508) 540-200 ",
+        address_1: "  291 Jones Rd",
+        address_2: "Falmouth, MA 02540",
+        dir: "https://maps.google.com/maps?q=Holiday+Inn+Cape+Cod-Falmouth,+Jones+Road,+Falmouth,+MA&hl=en&sll=41.552326,-70.600151&sspn=0.006688,0.013078&oq=holiday&hq=Holiday+Inn+Falmouth,+MA&hnear=Jones+Rd,+Falmouth,+Barnstable,+Massachusetts+02540&t=m&cid=1935725785510790399&z=17&iwloc=A",
+        coords: [41.552326,-70.600151],
+        notes: "The Holiday Inn is about 1.5 miles from the Flying Bridge Retaraunt. <a href='http://www.holidayinn.com/redirect?path=hd&brandCode=hi&localeCode=en&regionCode=1&hotelCode=FMHMA&_PMID=99801505&GPC=APT&blpu=true'>There's a group rate!</a>"
+      },
+      {
+        name: "Falmouth Inn",
+        url: "http://www.falmouthinn.com/",
+        phone: "(508) 540-2500 ",
+        address_1: "824 Main Street",
+        address_2: "Falmouth, MA 02540",
+        dir: "https://maps.google.com/maps?q=Falmouth+Inn,+Main+Street,+Falmouth,+MA&hl=en&sll=41.555157,-70.60171&sspn=0.013376,0.026157&oq=falmouth+inn&t=m&z=17&iwloc=A",
+        coords: [41.555157,-70.60171],
+        notes: 'The Falmouth Inn is right on Main St., and about 1/2 mile from the Flying Bridge Retaraunt'
+      },
+      {
+        name: "Inn Season",
+        url: "http://www.innseason.com/isr/rd_r_harborwalk.aspx",
+        phone: "(508) 548-4300",
+        address_1: "26 Robbins Road",
+        address_2: "Falmouth, MA 02540",
+        dir: "https://maps.google.com/maps?q=Innseason+Resorts+Harborwalk,+Robbins+Road,+Falmouth,+MA&hl=en&ll=41.552326,-70.600151&spn=0.006688,0.013078&sll=41.555048,-70.601538&sspn=0.006688,0.013078&oq=inn+season&hq=Innseason+Resorts+Harborwalk,&hnear=Robbins+Rd,+Falmouth,+Barnstable,+Massachusetts+02540&t=m&z=17",
+        coords: [41.552326,-70.600151],
+        notes: 'The Inn Season (pun intended!!) is very close to the Flying Bridge Retaraunt and on the harbor.'
+      },
+      {
+        name: "Shoreway Acres",
+        url: "http://www.shorewayacresinn.com/index.htm",
+        phone: "(800) 352-7100",
+        address_1: "59 Shore Street",
+        address_2: "Falmouth, MA 02540",
+        dir: "https://maps.google.com/maps?q=ShoreWay+Acres+Inn,+Shore+Street,+Falmouth,+MA&hl=en&sll=41.5604,-70.608332&sspn=0.006687,0.013078&oq=shorewa&hq=ShoreWay+Acres+Inn,&hnear=Shore+St,+Falmouth,+Massachusetts+02540&t=m&z=17",
+        coords: [41.5604,-70.608332],
+        notes: 'Shoreway Acres is about 1 mile from the Flying Bridge Retaraunt and very close to the beach.'
+      },
+    ]
+
+  - hotels.each do |h|
+    .card
+      .card-graphic
+        %a{ href: h[:dir] }
+          %img{ src: "http://maps.google.com/maps/api/staticmap?center=#{h[:coords][0]},#{h[:coords][1]}&zoom=11&markers=color:green|41.553221,-70.608589&size=200x200&sensor=false"}
+      .card-text
+        %a{ href: h[:url] }
+          %h4= h[:name].downcase
+        %p
+          %strong= h[:phone]
+          %br
+          = h[:address_1]
+          %br
+          = h[:address_2]
+        %h4 notes
+        %p= h[:notes]
+
+      .clear

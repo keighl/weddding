@@ -1,0 +1,102 @@
+!!! 5
+<!--[if lt IE 7]>     <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>        <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>        <html class="no-js lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>        <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>     <!--> <html class="no-js" lang="en"> <!--<![endif]-->
+%head
+  %title Kyle & Alice
+
+  %script{ src: "//use.typekit.net/xro0clp.js" }
+  :javascript
+    try{Typekit.load();}catch(e){}
+
+  %meta{ content: "width=device-width, minimum-scale=1.0, maximum-scale=1.0", name: "viewport" }
+  %link{ href: "/assets/stylesheets/screen.css", rel: "stylesheet", type: "text/css"}
+
+  <!--[if lt IE 9]>
+  %link{ href: "/assets/stylesheets/lt_ie9_screen.css", rel: "stylesheet", type: "text/css" }
+  <![endif]-->
+
+  %link{ rel: "shortcut icon", href: "/favicon.ico", type: "image/x-icon" }
+  %link{ rel: "icon", href: "/favicon.ico", type: "image/x-icon" }
+
+  %script{ src: "/assets/js/modernizr.js" }
+  %script{ src: "/assets/js/mustache.js" }
+%body
+  .cover-container
+    .cover-surface
+      .cover-content
+        .cover-background
+        .cover-gradient
+        .cover
+          %nav.cover-menu
+            .cover-menu-inner
+              %ul.cover-menu-list
+                %li.cover-menu-item
+                  %a.cover-menu-link{ href: "/" }
+                    home
+                    %span.icon-chevron
+
+                %li.cover-menu-item
+                  %a.cover-menu-link{ href: "/info.html" }
+                    wedding info
+                    %span.icon-chevron
+                %li.cover-menu-item
+                  %a.cover-menu-link{ href: "/lodging.html" }
+                    where to stay
+                    %span.icon-chevron
+                %li.cover-menu-item
+                  %a.cover-menu-link{ href: "/our-story.html" }
+                    our story
+                    %span.icon-chevron
+                %li.cover-menu-item
+                  %a.cover-menu-link{ href: "/whos-who.html" }
+                    who's who?
+                    %span.icon-chevron
+                %li.cover-menu-item
+                  %a.cover-menu-link{ href: "/things-to-do.html" }
+                    things to do
+                    %span.icon-chevron
+                %li.cover-menu-item
+                  %a.cover-menu-link{ href: "/photos.html" }
+                    photos
+                    %span.icon-chevron
+                %li.cover-menu-item
+                  %a.cover-menu-link{ href: "/registry.html" }
+                    registry
+                    %span.icon-chevron
+
+          .cover-logo
+            %img.cover-logo-img{ src: "/assets/media/anchor.png", width: 180 }
+
+  .content-wrapper
+    {{ content }}
+
+  .header
+    .header-wrapper
+      .header-sub-wrapper
+        %a.icon-menu.header-menu-icon{ href: "#"}
+        &nbsp;
+        &nbsp;
+        %a.header-title{ href: "/" }
+          %span.text alice & kyle
+.modal
+
+  %script{ src: "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" }
+
+  :javascript
+    window.jQuery || document.write('<script src="/assets/js/jquery.js"><\/script>')
+
+  %script{ src: "/assets/js/global.js" }
+
+  :javascript
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'stuff']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();

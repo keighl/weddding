@@ -1,0 +1,110 @@
+\---
+layout: default
+title: Who's Who
+\---
+
+.content-wrapper-header
+  .content-wrapper-header-inner
+    %h1 who's who
+    .the-boat
+  .the-waves
+
+.content-wrapper-inner
+
+  :ruby
+    ladies = [
+      {
+        name: "Ashley Moulton Matron of Honor",
+        slug: "ashley",
+        bio: "Ashmo - formerly known as Ashbo (pre-marriage when her last name was Bookheimer) - and Alice met in college.  They both made the jump from Ithaca, NY to New York, NY the summer of 2009 and Alice is so grateful to have such a great friend by her side. Ashley works in children's media, recently transitioning from a show on Nick, Jr. to a web-based children's media startup company. They also are both finishers of the 2013 Cayuga Lake Triathlon. It should also be noted that though Matron of Honor, there is nothing about Ashmo that is matronly. In fact, she is quite sassy."
+      },
+      {
+        name: "Liz Higgins - Maid of Honor",
+        slug: "liz",
+        bio: "Liz and Alice are friends through Kyle's brother, Brendan, who is lucky enough to be her boyfriend. Liz works in the pharmaceutical marketing research industry and is Alice's personal WebMD.com. They're also ski buddies who have perfected the balance between skiing hard & après-ing hard(er)."
+      },
+      {
+        name: "Alina Pak",
+        slug: "alina",
+        bio: "Alina is Alice's middle sister meaning they've known each other since Alice was 2.5 years old. Alina is the brains of the family, working as an analyst at a biomedical consulting family, and has been published in a couple science journals. She lives in Boston and is brave enough to both take the Chinatown bus to NYC to visit Alice AND regularly participate in Crossfit classes. They have been known to finish each other's sentences. "
+      },
+      {
+        name: "Angie Pak",
+        slug: "angie",
+        bio: "Angie - A3 - is the youngest of the Pak sisters. She attends Round Rock High School so much later than when Alice and Alina did that there are no teachers left there to mistake her for her two older siblings. She is a dancer - which is a shock to everyone who considers the dance abilities of the rest of the family - and is much cooler than A1 and A2 ever were in their teens. Angie lives in Round Rock, TX, working hard to ensure the parents don't suffer from Empty Nester's syndrome for at least a few more years. "
+      },
+      {
+        name: "Meredith Nowikowski",
+        slug: "meredith",
+        bio: "Meredith and Alice met at City Year. They learned that the other also ran and started to run in Central Park on Saturday mornings together. Eventually they trained for and finished the DC National SunTrust Marathon with other buddies in the spring of 2011, Alice's first! Meredith is currently the Membership and Marketing Manager at a neighborhood improvement association in NYC. She and Alice were once the pink and yellow Power Rangers respectively for Halloween, which was a hit with bar-hoppers who grew up in the ‘90s. "
+      },
+      {
+        name: "Karen Truscott",
+        slug: "karen",
+        bio: "Karen is the littlest Truscott, both in terms of age and size.  She recently moved to Chicago to try out the Midwest and with hopes of breaking into the art scene there as she is a painter with serious skills. Alice met Karen when she was only 14 (Angie's age now!) so Alice has seen her grow up.  Together with Liz, the three girls shield each other from Kyle and Brendan's shenanigans."
+      },
+      {
+        name: "Julianne Snape",
+        slug: "huli",
+        bio: "Julianna - aka Huli - is Alice's best friend from high school. Now married with a baby on the way a few months before K+A's wedding, Huli is preparing for her next big adventure as a mom. Huli lives in Nashville with her hubby and dog. She also has an extensive DVD collection of high school choir concerts, many which feature her and Alice singing and dancing in solo acts…sometimes on chairs. These are unfortunately or fortunately not available for rent/purchase/screenings, ever, so please don't ask. "
+      },
+    ]
+
+    dudes = [
+      {
+        name: "Brendan Truscott - Best Man",
+        slug: "brendan",
+        bio: "Brendan and Kyle are brothers and business partners. They spend a lot of sitting next to each other in their tiny Brooklyn office. Brendan is the more adventurous of the two and tends to push Kyle's limits on the ski slope. They are probably best described as 'those annoying guys who take things to far.'"
+      },
+      {
+        name: "Peter Callahan",
+        slug: "pete",
+        bio: "Peter defines modern chivalry, charm and wholesomeness. Another close friend from Falmouth, Pete and Kyle were constantly together after school and during the summer. The two of them once wired $200 to Cairo. Ask Pete about it at the wedding. Oh, he's also a peerless table tennis player."
+      },
+      {
+        name: "Cameron McCurdy",
+        slug: "cam",
+        bio: "A seriously witty fellow, Cam is one of Kyle's oldest friends from Falmouth. They've spent many a day hanging out after school getting into trouble. <strong>Some facts about Cam:</strong> American Ninja Warrior Champion 2012, certified human-computer, occasional Chippendale."
+      },
+      {
+        name: "David McTiernan",
+        slug: "dave",
+        bio: "Dave and Kyle grew up playing music together. Between 2005-2009, you could usually find them on summer nights performing with their jazz combo at one restaurant or another. Now, Dave lives in NYC and does things like hook Kyle up with free concert tickets."
+      },
+      {
+        name: "Hot Steve (aka Stephen McDonald)",
+        slug: "steve",
+        bio: "Steve is likely to be the most attractive person at the wedding. That's sort of the way it goes. Kyle and Steve were roommates for most of their time spent at Ithaca College. Some of their favorite pastimes included listening to Steve sing Roxanne and figuring out where to hide their stolen Wegmans shopping cart."
+      },
+      {
+        name: "Kyle Mitchell - Ring Bearer",
+        slug: "kyle_small",
+        bio: "Kyle is The Other Kyle in Alice's life, and is her nephew (in Korean terms) or her first cousin once removed (in American terms), aka the adorable child of Alice's paternal cousin, Adrienne, and her husband Nate. He currently lives in the Bay Area with his parents and close to his grandparents. In his spare time, Kyle loves to eat cheese and is master to a 120-lb chocolate lab named Sammy (that's at least 4X his size!)."
+      }
+    ]
+
+
+  .whos-who-toggler
+    %a.whos-who-toggle.whos-who-toggle-active{ href: "#ladies" } ladies
+    &nbsp;
+    %a.whos-who-toggle{ href: "#gentlemen" } gentlemen
+
+  #ladies.whos-who-section.whos-who-section-active
+    - ladies.each do |p|
+      .card
+        .card-graphic
+          %img{ src: "/assets/media/peeps/#{p[:slug]}.jpg"}
+        .card-text
+          %h4= p[:name].downcase
+          %p= p[:bio]
+        .clear
+
+  #gentlemen.whos-who-section
+    - dudes.each do |p|
+      .card
+        .card-graphic
+          %img{ src: "/assets/media/peeps/#{p[:slug]}.jpg"}
+        .card-text
+          %h4= p[:name].downcase
+          %p= p[:bio]
+        .clear

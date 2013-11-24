@@ -1,0 +1,451 @@
+html
+  height: 100%
+
+body
+  height: 100%
+  position: relative
+  background-color: white
+  +acta
+  color: #4f4f4f
+
+  background-color: #fafafa
+
+  +desktop
+    background-color: #CCF1D5
+
+  // +desktop
+  //   overflow: hidden
+
+////////////////////// TYPE
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li
+  margin-top: 0px // override normalize
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  color: #288D85
+  margin-bottom: 0.5em
+  +sail
+  line-height: 1.25em
+
+h1
+  font-size: 2.1em
+  padding-bottom: 0.25em
+
+  +desktop
+    font-size: 4.8em
+
+h2
+  font-size: 2em
+
+  +desktop
+    font-size: 3.8em
+    margin-bottom: 0.25em
+
+h3
+  font-size: 2em
+  border-top: 1px #99ccb7 solid
+  padding-top: 0.25em
+
+  +desktop
+    font-size: 2.2em
+h4,
+h5,
+h6
+  font-size: 1.6em
+  margin-bottom: 0.5em
+
+p
+  font-size: 1.1em
+  line-height: 1.8em
+  margin-bottom: 1.3em
+
+a,
+a:link,
+a:visited
+  text-decoration: underline
+  outline: none
+  color: #3f97b5
+
+a:hover,
+a:active
+  color: #49b0d3
+
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a
+  text-decoration: none !important
+
+strong
+  font-weight: normal
+  +acta-bold
+
+em
+  +acta-italic
+
+em strong,
+strong em
+  +acta-bold-italic
+
+
+ul,
+ol
+  list-style-type: disc
+  margin: 0
+  margin-left: 3em
+  font-size: 1.1em
+  line-height: 1.5em
+  margin-bottom: 1.3em
+  color: #666
+
+li
+  list-style-type: disc
+
+blockquote
+  margin: 0
+  margin-left: 2em
+  border-left: 3px #ccc solid
+  padding-left: 1em
+  line-height: 1.5em
+  margin-bottom: 1.3em
+  color: #666
+
+a.pill:link,
+a.pill:visited,
+a.pill
+  display: inline-block
+  padding: 10px
+  background-color: #eb5412
+  text-decoration: none
+  color: white
+  +border-radius(4px)
+  min-width: 100px
+  text-align: center
+
+iframe
+  border: none
+  display: block
+
+hr
+  background-color: transparent
+  border: none
+  height: 20px
+  background-image: image-url("rope.png")
+  background-position: center center
+  background-repeat: no-repeat
+  margin-bottom: 1.3em
+
+
+iframe
+  border: none
+  display: block
+
+img
+  max-width: 100%
+
+.clear
+  clear: both
+
+.cover-container
+  +desktop
+    overflow: hidden
+
+.cover-surface
+  overflow: hidden
+  height: 300px
+  padding-top: 55px
+  +single-transition(all, 200ms,ease-in)
+
+  +desktop
+    padding-top: 0px
+    position: absolute
+    top: 0
+    height: 100%
+    width: 100%
+    overflow: hidden
+
+.cover-content
+  +desktop
+    height: 100%
+    overflow: auto
+
+.cover
+  height: 465px
+  width: 100%
+  overflow: hidden
+  position: absolute
+  -webkit-backface-visibility: hidden
+  +single-transition(all, 200ms,ease-in)
+
+  +desktop
+    position: fixed
+    z-index: 100
+    top: 0
+    left: 0
+    width: 30%
+    height: 100%
+    max-width: 500px
+
+.cover-background
+  z-index: 0
+  background-position: center -110px
+  background-image: image-url("cover_2.jpg")
+  background-repeat: no-repeat
+  background-size: cover
+  -webkit-backface-visibility: hidden
+  +single-transition(all, 200ms,ease-in)
+  height: 465px
+  position: absolute
+  width: 100%
+
+  +landscape
+    background-position: center -210px
+
+  +tablet
+    background-position: center -290px
+
+  +desktop
+    position: fixed
+    width: 30%
+    height: 100%
+    background-position: center center
+
+.menu-open .cover
+  background: #232323
+  background: rgba(0,0,0,0.6)
+
+.menu-open .cover-surface
+  height: 465px
+
+.cssfilters .menu-open .cover
+  // +desktop
+  //   background: none
+
+.cssfilters .menu-open .cover-background
+  height: 465px
+  +filter(blur(30px))
+
+  +desktop
+    height: 100%
+
+.cover-gradient
+  display: none
+
+  +desktop
+    display: block
+    +background(linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0)))
+    position: fixed
+    top: 0px
+    left: 0px
+    height: 465px
+    width: 100%
+
+
+.cover-logo
+  display: none
+  position: absolute
+  top: 0px
+  width: 100%
+
+  +single-transition(all, 500ms, cubic-bezier(0.680, -0.550, 0.265, 1.550))
+  text-align: center
+  padding: 50px 0px
+
+  +desktop
+    display: block
+
+.cover-logo-img
+  +single-transition(all, 500ms, cubic-bezier(0.680, -0.550, 0.265, 1.550))
+  position: relative
+
+.cover-logo-img:hover
+  +rotate(30deg)
+
+.menu-open .cover-logo
+  top: 420px
+
+////////////////////////
+
+.content-wrapper
+  position: relative
+  -webkit-backface-visibility: hidden
+  background-color: #CCF1D5
+  +desktop
+    outline: 0
+    position: relative
+    left: 30%
+    width: 70%
+    +single-box-shadow(rgba(0,0,0,0.1), -2px, 0px, 0px, 2px)
+    z-index: 1000
+    min-height: 100%
+
+.content-wrapper-inner
+  padding: 20px
+
+  +desktop
+    width: 100%
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    max-width: 850px
+    padding: 50px 120px 30px 85px
+
+
+//////////////
+.cover-menu
+  overflow: hidden
+  position: relative
+  +opacity(0)
+  left: -100%
+  // height: 0px
+  +single-transition(all, 400ms, cubic-bezier(0.680, -0.250, 0.265, 1.250))
+
+.cover-menu-inner
+  padding: 25px 30px
+
+.menu-open .cover-menu
+  display: block
+  +opacity(1)
+  left: 0%
+  // height: 100%
+
+.cover-menu-list
+  width: 100%
+  margin: 0
+  padding: 0
+  list-style-type: none
+
+li.cover-menu-item
+  width: 100%
+  margin: 0
+  padding: 0
+  list-style-type: none
+  border-bottom: 1px white solid
+  border-bottom: 1px rgba(255,255,255,0.2) solid
+
+a.cover-menu-link
+  display: block
+  +acta
+  color: white
+  font-size: 22px
+  padding: 12px 0
+  position: relative
+  +single-transition(all, 100ms, ease-out)
+  text-decoration: none
+
+a.cover-menu-link:hover
+  +transform(translate(5px,0px))
+
+
+a.cover-menu-link .icon-chevron
+  position: absolute
+  right: 0px
+  top: 15px
+  font-size: 16px
+
+
+.card
+  +border-radius(4px)
+  background-color: #FFF
+  padding: 20px
+  // +single-box-shadow(rgba(0,0,0,0.05), 2px, 2px, 0px, 2px)
+  margin-bottom: 1.3em
+
+.card-sticky
+  position: absolute
+  right: 20px
+  top: 100px
+  width: 180px
+
+.card-graphic
+  margin-bottom: 20px
+  width: 60px
+
+  +landscape
+
+    float: left
+    width: 20%
+    margin-right: 25px
+
+  +tablet-desktop
+    float: left
+    width: 20%
+    margin-right: 25px
+
+.card-graphic img
+  +border-radius(4px)
+
+.card-text
+  +landscape
+    float: left
+    width: 70%
+
+  +tablet-desktop
+    float: left
+    width: 70%
+
+.card-text h4
+  border-bottom: 1px #eaeaea solid
+  padding-bottom: 0.2em
+
+
+.the-waves
+  height: 10px
+  width: 100%
+  position: absolute
+  bottom: 0px
+  left: 0px
+  background-image: image-url('header-waves.png')
+  background-position: left bottom
+  background-repeat: repeat-x
+
+.the-boat
+  height: 72px
+  width: 66px
+  position: absolute
+  bottom: 0px
+  right: 0px
+  background-image: image-url("the_boat.png")
+  background-position: right bottom
+  background-repeat: no-repeat
+
+.content-wrapper-header
+  position: relative
+  background-color: #99ccb7
+
+.content-wrapper-header-inner
+  padding: 20px
+  position: relative
+
+  +desktop
+    width: 100%
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    max-width: 850px
+    padding: 60px 120px 60px 85px
+
+.content-wrapper-header-inner h1
+  color: white
+  margin-bottom: 0
+
+  text-align: center
+
+  +desktop
+    text-align: left

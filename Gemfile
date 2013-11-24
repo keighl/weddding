@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'susy'
+gem 'compass'
+gem 'coffee-script'
+gem 'sass'
+gem 'guard'
+gem 'guard-haml'
+gem 'guard-coffeescript'
+gem 'guard-compass'

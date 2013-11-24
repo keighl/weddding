@@ -1,0 +1,15 @@
+name: 'Kyle & Alice'
+markdown: redcarpet
+pygments: true
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile
+  - views
+  - fontcustom
+  - sass
+  - "*.html.haml"
+  - "*.coffee"
+  - "*.sass"
+  - "*.rb"
+
