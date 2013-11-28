@@ -195,7 +195,7 @@ body {
   }
 }
 
-/* line 21, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 19, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 h1,
 h2,
 h3,
@@ -208,7 +208,7 @@ li {
   margin-top: 0px;
 }
 
-/* line 32, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 30, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 h1,
 h2,
 h3,
@@ -222,44 +222,44 @@ h6 {
   line-height: 1.25em;
 }
 
-/* line 43, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 41, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 h1 {
   font-size: 2.1em;
   padding-bottom: 0.25em;
 }
 @media (min-width: 60em) {
-  /* line 43, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 41, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   h1 {
     font-size: 4.8em;
   }
 }
 
-/* line 50, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 48, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 h2 {
   font-size: 2em;
 }
 @media (min-width: 60em) {
-  /* line 50, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 48, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   h2 {
     font-size: 3.8em;
     margin-bottom: 0.25em;
   }
 }
 
-/* line 57, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 55, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 h3 {
   font-size: 2em;
   border-top: 1px #99ccb7 solid;
   padding-top: 0.25em;
 }
 @media (min-width: 60em) {
-  /* line 57, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 55, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   h3 {
     font-size: 2.2em;
   }
 }
 
-/* line 64, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 62, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 h4,
 h5,
 h6 {
@@ -267,14 +267,14 @@ h6 {
   margin-bottom: 0.5em;
 }
 
-/* line 70, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 68, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 p {
   font-size: 1.1em;
   line-height: 1.8em;
   margin-bottom: 1.3em;
 }
 
-/* line 75, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 73, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 a,
 a:link,
 a:visited {
@@ -283,13 +283,13 @@ a:visited {
   color: #3f97b5;
 }
 
-/* line 82, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 80, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 a:hover,
 a:active {
   color: #49b0d3;
 }
 
-/* line 87, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 85, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 h1 a,
 h2 a,
 h3 a,
@@ -299,7 +299,7 @@ h6 a {
   text-decoration: none !important;
 }
 
-/* line 95, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 93, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 strong {
   font-weight: normal;
   font-family: "acta-display-n7", "acta-display";
@@ -307,14 +307,14 @@ strong {
   font-style: normal;
 }
 
-/* line 99, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 97, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 em {
   font-family: "acta-display-i4", "acta-display";
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
 }
 
-/* line 102, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 100, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 em strong,
 strong em {
   font-family: "acta-display-i7", "acta-display";
@@ -322,7 +322,7 @@ strong em {
   font-style: normal;
 }
 
-/* line 107, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 105, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 ul,
 ol {
   list-style-type: disc;
@@ -334,12 +334,12 @@ ol {
   color: #666666;
 }
 
-/* line 117, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 115, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 li {
   list-style-type: disc;
 }
 
-/* line 120, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 118, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 blockquote {
   margin: 0;
   margin-left: 2em;
@@ -350,7 +350,7 @@ blockquote {
   color: #666666;
 }
 
-/* line 129, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 127, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 a.pill:link,
 a.pill:visited,
 a.pill {
@@ -368,13 +368,13 @@ a.pill {
   text-align: center;
 }
 
-/* line 141, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 139, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 iframe {
   border: none;
   display: block;
 }
 
-/* line 145, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 143, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 hr {
   background-color: transparent;
   border: none;
@@ -385,30 +385,30 @@ hr {
   margin-bottom: 1.3em;
 }
 
-/* line 155, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 153, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 iframe {
   border: none;
   display: block;
 }
 
-/* line 159, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 157, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 img {
   max-width: 100%;
 }
 
-/* line 162, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 160, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .clear {
   clear: both;
 }
 
 @media (min-width: 60em) {
-  /* line 165, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 163, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .cover-container {
     overflow: hidden;
   }
 }
 
-/* line 169, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 167, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .cover-surface {
   overflow: hidden;
   height: 300px;
@@ -419,7 +419,7 @@ img {
   transition: all 200ms ease-in;
 }
 @media (min-width: 60em) {
-  /* line 169, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 167, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .cover-surface {
     padding-top: 0px;
     position: absolute;
@@ -431,14 +431,14 @@ img {
 }
 
 @media (min-width: 60em) {
-  /* line 183, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 181, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .cover-content {
     height: 100%;
     overflow: auto;
   }
 }
 
-/* line 188, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 186, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .cover {
   height: 465px;
   width: 100%;
@@ -451,7 +451,7 @@ img {
   transition: all 200ms ease-in;
 }
 @media (min-width: 60em) {
-  /* line 188, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 186, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .cover {
     position: fixed;
     z-index: 100;
@@ -463,7 +463,7 @@ img {
   }
 }
 
-/* line 205, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 203, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .cover-background {
   z-index: 0;
   background-position: center -110px;
@@ -480,19 +480,19 @@ img {
   width: 100%;
 }
 @media (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
-  /* line 205, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 203, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .cover-background {
     background-position: center -210px;
   }
 }
 @media (min-width: 36em) and (max-width: 60em) {
-  /* line 205, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 203, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .cover-background {
     background-position: center -290px;
   }
 }
 @media (min-width: 60em) {
-  /* line 205, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 203, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .cover-background {
     position: fixed;
     width: 30%;
@@ -501,18 +501,24 @@ img {
   }
 }
 
-/* line 229, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 227, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .menu-open .cover {
   background: #232323;
   background: rgba(0, 0, 0, 0.6);
 }
+@media (min-width: 60em) {
+  /* line 227, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  .menu-open .cover {
+    background: transparent;
+  }
+}
 
-/* line 233, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 234, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .menu-open .cover-surface {
   height: 465px;
 }
 
-/* line 240, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 241, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .cssfilters .menu-open .cover-background {
   height: 465px;
   -webkit-filter: blur(30px);
@@ -520,34 +526,44 @@ img {
   filter: blur(30px);
 }
 @media (min-width: 60em) {
-  /* line 240, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 241, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .cssfilters .menu-open .cover-background {
     height: 100%;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    filter: blur(0px);
   }
 }
 
-/* line 247, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+@media (min-width: 60em) {
+  /* line 249, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  .cover-content:hover .cover-background {
+    -webkit-filter: blur(30px);
+    -moz-filter: blur(30px);
+    filter: blur(30px);
+  }
+}
+
+/* line 253, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .cover-gradient {
   display: none;
 }
 @media (min-width: 60em) {
-  /* line 247, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 253, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .cover-gradient {
     display: block;
-    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.6)), color-stop(100%, rgba(0, 0, 0, 0)));
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
-    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
-    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
-    background: linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+    background-image: url('/assets/media/covergradient.png?1385592910');
+    background-position: bottom center;
+    background-repeat: repeat-x;
     position: fixed;
-    top: 0px;
+    bottom: 0px;
     left: 0px;
-    height: 465px;
+    height: 100%;
     width: 100%;
   }
 }
 
-/* line 260, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 267, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .cover-logo {
   display: none;
   position: absolute;
@@ -561,13 +577,13 @@ img {
   padding: 50px 0px;
 }
 @media (min-width: 60em) {
-  /* line 260, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 267, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .cover-logo {
     display: block;
   }
 }
 
-/* line 273, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 280, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .cover-logo-img {
   -webkit-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   -moz-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -576,7 +592,7 @@ img {
   position: relative;
 }
 
-/* line 277, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 284, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .cover-logo-img:hover {
   -webkit-transform: rotate(30deg);
   -moz-transform: rotate(30deg);
@@ -585,19 +601,25 @@ img {
   transform: rotate(30deg);
 }
 
-/* line 280, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 287, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .menu-open .cover-logo {
   top: 420px;
 }
+@media (min-width: 60em) {
+  /* line 287, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  .menu-open .cover-logo {
+    top: 0px;
+  }
+}
 
-/* line 285, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 295, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .content-wrapper {
   position: relative;
   -webkit-backface-visibility: hidden;
   background-color: #ccf1d5;
 }
 @media (min-width: 60em) {
-  /* line 285, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 295, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .content-wrapper {
     outline: 0;
     position: relative;
@@ -611,12 +633,12 @@ img {
   }
 }
 
-/* line 298, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 308, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .content-wrapper-inner {
   padding: 20px;
 }
 @media (min-width: 60em) {
-  /* line 298, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 308, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .content-wrapper-inner {
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -627,7 +649,7 @@ img {
   }
 }
 
-/* line 311, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 321, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .cover-menu {
   overflow: hidden;
   position: relative;
@@ -639,13 +661,24 @@ img {
   -o-transition: all 400ms cubic-bezier(0.68, -0.25, 0.265, 1.25);
   transition: all 400ms cubic-bezier(0.68, -0.25, 0.265, 1.25);
 }
+@media (min-width: 60em) {
+  /* line 321, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  .cover-menu {
+    position: absolute;
+    display: block;
+    opacity: 1;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+  }
+}
 
-/* line 319, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 336, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .cover-menu-inner {
   padding: 25px 30px;
 }
 
-/* line 322, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 340, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .menu-open .cover-menu {
   display: block;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
@@ -653,7 +686,7 @@ img {
   left: 0%;
 }
 
-/* line 328, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 345, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .cover-menu-list {
   width: 100%;
   margin: 0;
@@ -661,7 +694,7 @@ img {
   list-style-type: none;
 }
 
-/* line 334, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 351, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 li.cover-menu-item {
   width: 100%;
   margin: 0;
@@ -671,7 +704,12 @@ li.cover-menu-item {
   border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
 }
 
-/* line 342, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 359, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+li.cover-menu-item:last-child {
+  border-bottom: none;
+}
+
+/* line 362, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 a.cover-menu-link {
   display: block;
   font-family: "acta-display-n4", "acta-display";
@@ -688,7 +726,7 @@ a.cover-menu-link {
   text-decoration: none;
 }
 
-/* line 352, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 372, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 a.cover-menu-link:hover {
   -webkit-transform: translate(5px, 0px);
   -moz-transform: translate(5px, 0px);
@@ -697,7 +735,7 @@ a.cover-menu-link:hover {
   transform: translate(5px, 0px);
 }
 
-/* line 356, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 375, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 a.cover-menu-link .icon-chevron {
   position: absolute;
   right: 0px;
@@ -705,7 +743,7 @@ a.cover-menu-link .icon-chevron {
   font-size: 16px;
 }
 
-/* line 363, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 382, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .card {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -717,7 +755,7 @@ a.cover-menu-link .icon-chevron {
   margin-bottom: 1.3em;
 }
 
-/* line 370, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 389, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .card-sticky {
   position: absolute;
   right: 20px;
@@ -725,13 +763,13 @@ a.cover-menu-link .icon-chevron {
   width: 180px;
 }
 
-/* line 376, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 395, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .card-graphic {
   margin-bottom: 20px;
   width: 60px;
 }
 @media (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
-  /* line 376, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 395, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .card-graphic {
     float: left;
     width: 20%;
@@ -739,7 +777,7 @@ a.cover-menu-link .icon-chevron {
   }
 }
 @media (min-width: 36em) and (max-width: 60em) {
-  /* line 376, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 395, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .card-graphic {
     float: left;
     width: 20%;
@@ -747,7 +785,7 @@ a.cover-menu-link .icon-chevron {
   }
 }
 @media (min-width: 60em) {
-  /* line 376, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 395, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .card-graphic {
     float: left;
     width: 20%;
@@ -755,7 +793,7 @@ a.cover-menu-link .icon-chevron {
   }
 }
 
-/* line 391, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 410, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .card-graphic img {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -765,34 +803,34 @@ a.cover-menu-link .icon-chevron {
 }
 
 @media (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
-  /* line 394, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 413, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .card-text {
     float: left;
     width: 70%;
   }
 }
 @media (min-width: 36em) and (max-width: 60em) {
-  /* line 394, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 413, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .card-text {
     float: left;
     width: 70%;
   }
 }
 @media (min-width: 60em) {
-  /* line 394, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 413, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .card-text {
     float: left;
     width: 70%;
   }
 }
 
-/* line 403, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 422, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .card-text h4 {
   border-bottom: 1px #eaeaea solid;
   padding-bottom: 0.2em;
 }
 
-/* line 408, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 427, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .the-waves {
   height: 10px;
   width: 100%;
@@ -804,7 +842,7 @@ a.cover-menu-link .icon-chevron {
   background-repeat: repeat-x;
 }
 
-/* line 418, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 437, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .the-boat {
   height: 72px;
   width: 66px;
@@ -816,19 +854,19 @@ a.cover-menu-link .icon-chevron {
   background-repeat: no-repeat;
 }
 
-/* line 428, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 447, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .content-wrapper-header {
   position: relative;
   background-color: #99ccb7;
 }
 
-/* line 432, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 451, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .content-wrapper-header-inner {
   padding: 20px;
   position: relative;
 }
 @media (min-width: 60em) {
-  /* line 432, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 451, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .content-wrapper-header-inner {
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -839,14 +877,14 @@ a.cover-menu-link .icon-chevron {
   }
 }
 
-/* line 444, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 463, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .content-wrapper-header-inner h1 {
   color: white;
   margin-bottom: 0;
   text-align: center;
 }
 @media (min-width: 60em) {
-  /* line 444, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 463, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .content-wrapper-header-inner h1 {
     text-align: left;
   }
@@ -1105,7 +1143,7 @@ a.header-menu-icon:hover {
   -webkit-overflow-scrolling: touch;
 }
 
-/* line 25, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
+/* line 24, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
 .modal a.icon-close {
   position: absolute;
   top: 30px;
@@ -1118,7 +1156,7 @@ a.header-menu-icon:hover {
   transition: all 100ms;
   text-decoration: none;
 }
-/* line 34, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
+/* line 33, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
 .modal a.icon-close:hover {
   -webkit-transform: scale(1.3, 1.3);
   -moz-transform: scale(1.3, 1.3);
@@ -1127,7 +1165,7 @@ a.header-menu-icon:hover {
   transform: scale(1.3, 1.3);
 }
 
-/* line 37, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
+/* line 36, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
 .modal-photo-card {
   width: 100%;
   height: 100%;
@@ -1135,7 +1173,7 @@ a.header-menu-icon:hover {
   position: absolute;
 }
 
-/* line 43, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
+/* line 42, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
 .modal-photo-card img {
   position: relative;
   display: inline-block;
@@ -1151,7 +1189,7 @@ a.header-menu-icon:hover {
   transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-/* line 50, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
+/* line 49, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
 .modal-photo-card-visible img {
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);

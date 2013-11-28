@@ -11,14 +11,14 @@ title: Photos
 .content-wrapper-inner
   %section.photos
     %ul.photos-list
-      - 10.times do |n|
+      - 27.times do |n|
         - klass = nil
         - klass = "#{klass} photos-list-item-odd" if (n.odd?)
         - klass =  "#{klass} photos-list-item-tert" if ((n+1) % 3 == 0)
         - klass = nil if n == 0
         %li.photos-list-item{ class: klass }
-          %a.js-photo-detail{ href: "/assets/media/cover.jpg" }
-            %img{ src: "/assets/media/example.jpg"}
+          %a.js-photo-detail{ href: "/assets/media/photos/#{n}.jpg" }
+            %img{ src: "/assets/media/square/#{n}.jpg" }
   .clear
   %script#photo-detail-contents{ type: "text/template" }
     :plain

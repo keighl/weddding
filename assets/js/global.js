@@ -5,7 +5,7 @@
     modal_engaged = false;
     modal = $(".modal");
     body = $('body');
-    menu_toggle = $('.header-menu-icon, .cover-logo-img');
+    menu_toggle = $('.header-menu-icon');
     menu_toggle.bind("click", function(e) {
       body.toggleClass("menu-open");
       menu_toggle.toggleClass("icon-menu icon-close");

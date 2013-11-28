@@ -3,7 +3,7 @@ $ ->
   modal_engaged = false
   modal         = $(".modal")
   body          = $ 'body'
-  menu_toggle   = $ '.header-menu-icon, .cover-logo-img'
+  menu_toggle   = $ '.header-menu-icon'
 
   menu_toggle.bind "click", (e) ->
     body.toggleClass "menu-open"
