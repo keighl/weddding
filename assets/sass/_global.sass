@@ -248,7 +248,7 @@ img
 
 .cover-content:hover .cover-background
   +desktop
-    +filter(blur(30px))
+    +filter(blur(00px))
 
 .cover-gradient
   display: none
@@ -425,32 +425,61 @@ a.cover-menu-link .icon-chevron
 
 
 .the-waves
-  height: 10px
+  +animation(waves, 0, 2.3s)
+  height: 20px
   width: 100%
   position: absolute
   bottom: 0px
   left: 0px
+
   background-image: image-url('header-waves.png')
-  background-position: left bottom
+  background-position: left top
   background-repeat: repeat-x
 
++keyframes(waves)
+  0%
+    +translateY(0px)
+  70%
+    +translateY(2px)
+  100%
+    +translateY(0px)
+
 .the-boat
-  height: 72px
+  +animation(boat, 0, 2.3s)
+  height: 78px
   width: 66px
   position: absolute
-  bottom: 0px
-  right: 0px
+  bottom: 5px
+  left: 100%
   background-image: image-url("the_boat.png")
   background-position: right bottom
   background-repeat: no-repeat
+  +single-transition(left, 40s, linear)
+
+  +tablet-desktop
+    +single-transition(left, 60s, linear)
+
+.the-boat-on-the-move
+  left: -10%
+
++keyframes(boat)
+  0%
+    +simple-transform(1, 0deg, 0, -5px)
+  25%
+    +simple-transform(1, -5deg, 0, 0px)
+  70%
+    +simple-transform(1, 5deg, 0, 2px)
+  100%
+    +simple-transform(1, 0deg, 0, -5px)
 
 .content-wrapper-header
   position: relative
   background-color: #99ccb7
+  overflow: hidden
 
 .content-wrapper-header-inner
-  padding: 20px
-  position: relative
+  padding: 30px 20px
+  padding-bottom: 40px
 
   +desktop
     width: 100%
@@ -463,6 +492,7 @@ a.cover-menu-link .icon-chevron
 .content-wrapper-header-inner h1
   color: white
   margin-bottom: 0
+  z-index: 20
 
   text-align: center
 

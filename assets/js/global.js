@@ -75,7 +75,8 @@
       body.removeClass("noscroll");
       return false;
     };
-    return modal.on("click.fiesta-focus", ".icon-close", close_modal);
+    modal.on("click.weddding-focus", ".icon-close", close_modal);
+    return $('.the-boat').addClass('the-boat-on-the-move');
   });
 
 }).call(this);

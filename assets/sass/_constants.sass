@@ -86,6 +86,27 @@ $grid-padding  : $gutter-width
     +rotate(360deg)
 
 
+@mixin animation($animation, $delay: 0, $duration: 1s, $count: infinite)
+  -webkit-animation-delay: $delay
+  -webkit-animation-duration: $duration
+  -webkit-animation-name: $animation
+  -webkit-animation-iteration-count: $count /* this prevents the animation from restarting! */
+
+  -moz-animation-delay: $delay
+  -moz-animation-duration: $duration
+  -moz-animation-name: $animation
+  -moz-animation-iteration-count: $count /* this prevents the animation from restarting! */
+
+  -o-animation-delay: $delay
+  -o-animation-duration: $duration
+  -o-animation-name: $animation
+  -o-animation-iteration-count: $count /* this prevents the animation from restarting! */
+
+  animation-delay: $delay
+  animation-duration: $duration
+  animation-name: $animation
+  animation-iteration-count: $count /* this prevents the animation from restarting! */
+
 // Absolutely centered
 @mixin absolutely-centered
   left: 0

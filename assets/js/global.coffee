@@ -61,4 +61,6 @@ $ ->
     body.removeClass "noscroll"
     false
 
-  modal.on "click.fiesta-focus", ".icon-close", close_modal
+  modal.on "click.weddding-focus", ".icon-close", close_modal
+
+  $('.the-boat').addClass 'the-boat-on-the-move'

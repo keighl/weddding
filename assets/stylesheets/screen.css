@@ -538,9 +538,9 @@ img {
 @media (min-width: 60em) {
   /* line 249, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .cover-content:hover .cover-background {
-    -webkit-filter: blur(30px);
-    -moz-filter: blur(30px);
-    filter: blur(30px);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    filter: blur(0px);
   }
 }
 
@@ -832,41 +832,302 @@ a.cover-menu-link .icon-chevron {
 
 /* line 427, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .the-waves {
-  height: 10px;
+  -webkit-animation-delay: 0;
+  -webkit-animation-duration: 2.3s;
+  -webkit-animation-name: waves;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-delay: 0;
+  -moz-animation-duration: 2.3s;
+  -moz-animation-name: waves;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-delay: 0;
+  -o-animation-duration: 2.3s;
+  -o-animation-name: waves;
+  -o-animation-iteration-count: infinite;
+  animation-delay: 0;
+  animation-duration: 2.3s;
+  animation-name: waves;
+  animation-iteration-count: infinite;
+  height: 20px;
   width: 100%;
   position: absolute;
   bottom: 0px;
   left: 0px;
-  background-image: url('/assets/media/header-waves.png?1385306584');
-  background-position: left bottom;
+  background-image: url('/assets/media/header-waves.png?1393176250');
+  background-position: left top;
   background-repeat: repeat-x;
 }
 
-/* line 437, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
-.the-boat {
-  height: 72px;
-  width: 66px;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  background-image: url('/assets/media/the_boat.png?1385306339');
-  background-position: right bottom;
-  background-repeat: no-repeat;
+@-webkit-keyframes waves {
+  /* line 440, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  0% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+
+  /* line 442, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  70% {
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    -o-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+
+  /* line 444, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  100% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+@-moz-keyframes waves {
+  /* line 440, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  0% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+
+  /* line 442, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  70% {
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    -o-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+
+  /* line 444, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  100% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+@keyframes waves {
+  /* line 440, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  0% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+
+  /* line 442, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  70% {
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    -o-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+
+  /* line 444, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  100% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+  }
 }
 
 /* line 447, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+.the-boat {
+  -webkit-animation-delay: 0;
+  -webkit-animation-duration: 2.3s;
+  -webkit-animation-name: boat;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-delay: 0;
+  -moz-animation-duration: 2.3s;
+  -moz-animation-name: boat;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-delay: 0;
+  -o-animation-duration: 2.3s;
+  -o-animation-name: boat;
+  -o-animation-iteration-count: infinite;
+  animation-delay: 0;
+  animation-duration: 2.3s;
+  animation-name: boat;
+  animation-iteration-count: infinite;
+  height: 78px;
+  width: 66px;
+  position: absolute;
+  bottom: 5px;
+  left: 100%;
+  background-image: url('/assets/media/the_boat.png?1393178134');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  -webkit-transition: left 40s linear;
+  -moz-transition: left 40s linear;
+  -o-transition: left 40s linear;
+  transition: left 40s linear;
+}
+@media (min-width: 36em) and (max-width: 60em) {
+  /* line 447, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  .the-boat {
+    -webkit-transition: left 60s linear;
+    -moz-transition: left 60s linear;
+    -o-transition: left 60s linear;
+    transition: left 60s linear;
+  }
+}
+@media (min-width: 60em) {
+  /* line 447, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  .the-boat {
+    -webkit-transition: left 60s linear;
+    -moz-transition: left 60s linear;
+    -o-transition: left 60s linear;
+    transition: left 60s linear;
+  }
+}
+
+/* line 462, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+.the-boat-on-the-move {
+  left: -10%;
+}
+
+@-webkit-keyframes boat {
+  /* line 466, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  0% {
+    -webkit-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -moz-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -ms-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -o-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+  }
+
+  /* line 468, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  25% {
+    -webkit-transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+    -moz-transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+    -ms-transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+    -o-transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+    transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+  }
+
+  /* line 470, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  70% {
+    -webkit-transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+    -moz-transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+    -ms-transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+    -o-transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+    transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+  }
+
+  /* line 472, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  100% {
+    -webkit-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -moz-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -ms-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -o-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+  }
+}
+
+@-moz-keyframes boat {
+  /* line 466, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  0% {
+    -webkit-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -moz-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -ms-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -o-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+  }
+
+  /* line 468, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  25% {
+    -webkit-transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+    -moz-transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+    -ms-transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+    -o-transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+    transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+  }
+
+  /* line 470, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  70% {
+    -webkit-transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+    -moz-transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+    -ms-transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+    -o-transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+    transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+  }
+
+  /* line 472, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  100% {
+    -webkit-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -moz-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -ms-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -o-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+  }
+}
+
+@keyframes boat {
+  /* line 466, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  0% {
+    -webkit-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -moz-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -ms-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -o-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+  }
+
+  /* line 468, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  25% {
+    -webkit-transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+    -moz-transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+    -ms-transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+    -o-transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+    transform:  scale(1, 1) rotateZ(-5deg) translate(0, 0px);
+  }
+
+  /* line 470, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  70% {
+    -webkit-transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+    -moz-transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+    -ms-transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+    -o-transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+    transform:  scale(1, 1) rotateZ(5deg) translate(0, 2px);
+  }
+
+  /* line 472, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  100% {
+    -webkit-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -moz-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -ms-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    -o-transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+    transform:  scale(1, 1) rotateZ(0deg) translate(0, -5px);
+  }
+}
+
+/* line 475, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .content-wrapper-header {
   position: relative;
   background-color: #99ccb7;
+  overflow: hidden;
 }
 
-/* line 451, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 480, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .content-wrapper-header-inner {
-  padding: 20px;
-  position: relative;
+  padding: 30px 20px;
+  padding-bottom: 40px;
 }
 @media (min-width: 60em) {
-  /* line 451, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 480, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .content-wrapper-header-inner {
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -877,14 +1138,15 @@ a.cover-menu-link .icon-chevron {
   }
 }
 
-/* line 463, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+/* line 492, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
 .content-wrapper-header-inner h1 {
   color: white;
   margin-bottom: 0;
+  z-index: 20;
   text-align: center;
 }
 @media (min-width: 60em) {
-  /* line 463, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
+  /* line 492, /Users/keighl/Dropbox/www/weddddding/assets/sass/_global.sass */
   .content-wrapper-header-inner h1 {
     text-align: left;
   }
@@ -1036,11 +1298,11 @@ a.header-menu-icon:hover {
 
 /* line 23, /Users/keighl/Dropbox/www/weddddding/assets/sass/_photos.sass */
 .photos-list-item:hover {
-  -webkit-transform: rotate(5deg);
-  -moz-transform: rotate(5deg);
-  -ms-transform: rotate(5deg);
-  -o-transform: rotate(5deg);
-  transform: rotate(5deg);
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  -o-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
   z-index: 1000;
 }
 
@@ -1146,10 +1408,10 @@ a.header-menu-icon:hover {
 /* line 24, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
 .modal a.icon-close {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 20px;
+  right: 20px;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   -webkit-transition: all 100ms;
   -moz-transition: all 100ms;
   -o-transition: all 100ms;
@@ -1158,11 +1420,11 @@ a.header-menu-icon:hover {
 }
 /* line 33, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
 .modal a.icon-close:hover {
-  -webkit-transform: scale(1.3, 1.3);
-  -moz-transform: scale(1.3, 1.3);
-  -ms-transform: scale(1.3, 1.3);
-  -o-transform: scale(1.3, 1.3);
-  transform: scale(1.3, 1.3);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 
 /* line 36, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
@@ -1174,29 +1436,30 @@ a.header-menu-icon:hover {
 }
 
 /* line 42, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
+.modal-photo-card-inner {
+  padding: 60px 0;
+}
+@media (min-width: 36em) and (max-width: 60em) {
+  /* line 42, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
+  .modal-photo-card-inner {
+    padding: 100px 0;
+  }
+}
+@media (min-width: 60em) {
+  /* line 42, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
+  .modal-photo-card-inner {
+    padding: 100px 0;
+  }
+}
+
+/* line 48, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
 .modal-photo-card img {
   position: relative;
   display: inline-block;
-  top: 100%;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-  -webkit-transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  -moz-transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  -o-transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-/* line 49, /Users/keighl/Dropbox/www/weddddding/assets/sass/_modal.sass */
-.modal-photo-card-visible img {
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  top: 0px;
+  -webkit-transition: all 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 /* line 1, /Users/keighl/Dropbox/www/weddddding/assets/sass/_whos.sass */
